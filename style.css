@@ -1,7 +1,13 @@
+*{
+	margin:0;
+}
+
+
 html,body{
 	margin: 0;
     top: 0;
     left: 0;
+
 
     
 }
@@ -137,7 +143,7 @@ a:active{
       font-size: 5.5em;
       transform: rotate(90deg);
       position:relative;
-      top:100vh;
+      top:120vh;
       left: 40vw;
       color:#BFD3F9;
       word-spacing: 5vw;
@@ -161,7 +167,7 @@ a:active{
 .box3 h3{
 	font-size: 50px;
 	position: absolute;
-	top: 140vh;
+	top: 145vh;
 	left: 40vw;
 	font-family:'truenoRegular';
 	color: blue;
@@ -173,7 +179,7 @@ a:active{
 	color: blue;
 	padding-left:8vw;
 	position: absolute;
-	top: 170vh;
+	top: 175vh;
 	left: 2vw;
 	font-size:2.5em;
 	text-decoration: underline;
@@ -195,7 +201,7 @@ a:active{
 	position: absolute;
 	padding-top: 2vw;
 	padding-left:10vw;
-	top: 179vh;
+	top: 180vh;
 	color: blue;
 	font-size: 1.1em;
 	font-family: 'truenoRegular';
@@ -206,7 +212,7 @@ a:active{
 	
 	
 	position: relative;
-	top:5vh;
+	top:54vh;
 	left: 20vw;
 	font-size: 2.5em;
 	text-decoration: underline;
@@ -217,7 +223,7 @@ a:active{
 	height:25vh;
 	width: 25vw;
 	position: relative;
-	top:-1vh;
+	top: 50vh;
     left:10vw;
     
     }
@@ -229,7 +235,7 @@ a:active{
 	padding-right: 20vw;
 	padding-top: 1.5vw;
 	float: right;
-	top: -2vh;
+	top: 54vh;
 	color: blue;
 	text-align: right;
 	font-size: 1.1em;
@@ -240,7 +246,7 @@ a:active{
 	color: blue;
 	padding-left: 10vw;
 	position: absolute;
-	top: 275vh;
+	top: 265vh;
 	left:2vw; 
 	font-size: 2.5em;
 	text-decoration: underline;
@@ -251,7 +257,7 @@ a:active{
 	height: 25vh;
 	width: 20vw;
 	position:absolute;
-	top:285vh;
+	top:265vh;
 	left: 50vw;
 	
 }
@@ -261,7 +267,7 @@ a:active{
 	position: absolute;
 	padding-left: 10vw;
 	padding-top: 2vw;
-	top:285vh;
+	top:270vh;
 	left: 2vw;
 	color: blue;
 	text-align: left;
@@ -274,7 +280,7 @@ a:active{
 	
 	
 	position: absolute;
-	top:330vh;
+	top:310vh;
 	left: 64vw;
 	font-size: 2.5em;
 	text-decoration: underline;
@@ -286,7 +292,7 @@ a:active{
 	height:25vh;
 	width: 25vw;
 	position: absolute;
-	top: 340vh;
+	top: 312vh;
 	
     
 }
@@ -297,7 +303,7 @@ a:active{
 	position: absolute;
 	right:5vw;
 	
-	top: 340vh;
+	top: 316vh;
 	color: blue;
 	text-align: right;
 	font-family: 'truenoRegular';
@@ -305,16 +311,18 @@ a:active{
 }
 .box8{
 	position: relative;
-	top:140vh;
+	top:200vh;
 	width:100vw;
-	height: 100vh;
+	height:80vh;
 	background: linear-gradient(to bottom left, #6C63FF,#E14FBF);
+	bottom: 0;
+	box-sizing: border-box;
 	
 	
 }
 .footer{
 	position: relative;
-	top: 120vh;
+	top: 180vh;
 	left:50%;
 	padding: 5vw;
 }
@@ -336,7 +344,7 @@ a:active{
 .box9
 	img{
 	position: absolute;
-	top:440vh;
+	top:420vh;
 	left: 5vw;
 	padding: 1vw;
 	width: 12vw;
@@ -364,7 +372,7 @@ i:hover{
 }
 .image{
 	position: relative;
-	top: 60vh;
+	top:120vh;
 	left: 90%;
 	width: 1vw;
 	height: 4vh;
@@ -379,6 +387,67 @@ i:hover{
     color: white;
     text-align: left;
     position: absolute;
-    top:90%;
+    top:70%;
     left: 5vw;
+}
+//*
+@media screen and (max-width: 600px){
+
+.group{
+	width: 100%;
+}
+img{
+	width: 100%
+}
+li{
+	width: 100%
+}
+.box10 {
+	width: 100%
+	}
+p{
+	width: 100%
+}
+.box4 p{
+	width: 100%
+}
+.box4 img{
+	width: 100%
+}
+.box5 p{
+	width: 100%
+}
+.box5 img{
+	width: 100%
+}.box6 p{
+	width: 100%
+}
+.box6 img{
+	width: 100%
+}.box7 p{
+	width: 100%
+}
+.box7 img{
+	width: 100%
+}
+.box3 h6{
+	width: 100%
+}
+.box3 h3{
+	height: 100%
+}
+.image {
+	height:100%
+}
+.circle{
+	width: 100%
+}
+.footer{
+	width: 100%
+}
+
+}*//
+*{
+	bottom: 0;
+	margin-bottom: 0;
 }
